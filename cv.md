@@ -7,3 +7,19 @@
 - GitHub: https://github.com/nadiia0811
 #### About me:
 I am a junior web developer with a solid foundation in JavaScript, HTML, CSS, and React. My proactive approach to learning and my experience in building responsive and visually appealing web applications have equipped me with the skills to tackle complex challenges effectively. I thrive in collaborative environments, where I can contribute to team success and continuously enhance my skills. My passion for web development drives me to stay updated with the latest trends, making me a valuable addition to your team.
+#### Tech Skills:
+##### Frontend:
+- JavaScript (ES6+) 
+- React + TypeScript 
+- CSS
+- HTML
+- Tailwind 
+- Framer Motion, Shadcn, Lucide and other libraries
+##### Backend: 
+- NodeJS, Express
+##### Data bases: 
+- MongoDB, MySQL
+#### Soft Skills:
+- I can work effectively both independently and collaboratively in a team environment
+- Time management
+- Continuous learning
