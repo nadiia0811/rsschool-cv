@@ -58,3 +58,15 @@ export const useGetMyUser = () => {
 ##### Code explanation:
 This is a custom React hook designed to retrieve the current user's information. It uses the fetch API to perform a 'GET' request to the backend, which in turn queries MongoDB for the relevant user data. The hook returns an object containing two properties: currentUser, which holds the current user's data, and isLoading, a boolean value that indicates whether the data is still loading. This hook helps streamline data fetching in my application, making it more organized and reusable across different components.
 You can see how the application works by visiting: https://mern-food-ordering-app-frontend-c7fh.onrender.com.
+#### Education and Experience: 
+- Course: Programming for Beginners (Brain Academy, Zaporizhzhia)
+- High School of Information Technologies and Management (Rzeszów, Poland)
+- W3School
+- Free Code Camp courses
+- Practical JavaScript - Advanced Level (Udemy)
+- JavaScript + React: Full Course from Zero to Advanced (Ivan Petrichenko, Udemy)
+
+In my portfolio I have projects: 
+- E-commerce: An application that allows users to register, log in, add and delete products from their cart, retrieve products from the database upon logging in, and sort products by price.
+- Food Ordering App: A full-stack application featuring user authentication with Auth0, user profile management, restaurant and menu creation, order management, and payment processing via Stripe.
+#### English Level: B1
