@@ -1,13 +1,13 @@
 # Nadiia Krzesinska
 ### Junior Web Developer
 
-#### Contacts: 
+#### **Contacts:** 
 -  Phone: +48 733 508 511
 - E-mail: nb1985@ukr.net
 - GitHub: https://github.com/nadiia0811
-#### About me:
+#### **About me:**
 I am a junior web developer with a solid foundation in JavaScript, HTML, CSS, and React. My proactive approach to learning and my experience in building responsive and visually appealing web applications have equipped me with the skills to tackle complex challenges effectively. I thrive in collaborative environments, where I can contribute to team success and continuously enhance my skills. My passion for web development drives me to stay updated with the latest trends, making me a valuable addition to your team.
-#### Tech Skills:
+#### **Tech Skills:**
 ##### Frontend:
 - JavaScript (ES6+) 
 - React + TypeScript 
@@ -15,15 +15,15 @@ I am a junior web developer with a solid foundation in JavaScript, HTML, CSS, an
 - HTML
 - Tailwind 
 - Framer Motion, Shadcn, Lucide and other libraries
-##### Backend: 
+##### **Backend:** 
 - NodeJS, Express
-##### Data bases: 
+##### **Data bases:**
 - MongoDB, MySQL
-#### Soft Skills:
+#### **Soft Skills:**
 - I can work effectively both independently and collaboratively in a team environment
 - Time management
 - Continuous learning
-#### Code example:
+#### **Code example:**
 ```sh
 export const useGetMyUser = () => {
   const { getAccessTokenSilently } = useAuth0();
@@ -55,10 +55,10 @@ export const useGetMyUser = () => {
   return { currentUser, isPending };
 }
 ```
-##### Code explanation:
+##### **Code explanation:**
 This is a custom React hook designed to retrieve the current user's information. It uses the fetch API to perform a 'GET' request to the backend, which in turn queries MongoDB for the relevant user data. The hook returns an object containing two properties: currentUser, which holds the current user's data, and isLoading, a boolean value that indicates whether the data is still loading. This hook helps streamline data fetching in my application, making it more organized and reusable across different components.
-You can see how the application works by visiting: https://mern-food-ordering-app-frontend-c7fh.onrender.com.
-#### Education and Experience: 
+You can see how the application works by visiting: [https://mern-food-ordering-app-frontend-c7fh.onrender.com](https://mern-food-ordering-app-frontend-c7fh.onrender.com)
+#### **Education and Experience:**
 - Course: Programming for Beginners (Brain Academy, Zaporizhzhia)
 - High School of Information Technologies and Management (Rzeszów, Poland)
 - W3School
@@ -69,4 +69,4 @@ You can see how the application works by visiting: https://mern-food-ordering-ap
 In my portfolio I have projects: 
 - E-commerce: An application that allows users to register, log in, add and delete products from their cart, retrieve products from the database upon logging in, and sort products by price.
 - Food Ordering App: A full-stack application featuring user authentication with Auth0, user profile management, restaurant and menu creation, order management, and payment processing via Stripe.
-#### English Level: B1
+#### **English Level:** B1
