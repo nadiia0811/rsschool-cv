@@ -23,3 +23,38 @@ I am a junior web developer with a solid foundation in JavaScript, HTML, CSS, an
 - I can work effectively both independently and collaboratively in a team environment
 - Time management
 - Continuous learning
+#### Code example:
+```sh
+export const useGetMyUser = () => {
+  const { getAccessTokenSilently } = useAuth0();
+  const getMyUserRequest = async (): Promise<User> => {
+  const accessToken = await getAccessTokenSilently();
+
+  const response = await fetch(`${API_BASE_URL}/api/my/user`, {
+    method: "GET",
+    headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json"
+    },   
+  });
+
+  if(!response.ok) {
+    throw new Error("Failed get user info");
+  }
+
+  return response.json();
+  };
+
+  const { data: currentUser, isPending, error} = useQuery({
+        queryKey: ["fetchCurrentUser"], 
+        queryFn: getMyUserRequest});
+  if(error) {
+    toast.error(error.toString());
+  }
+
+  return { currentUser, isPending };
+}
+```
+##### Code explanation:
+This is a custom React hook designed to retrieve the current user's information. It uses the fetch API to perform a 'GET' request to the backend, which in turn queries MongoDB for the relevant user data. The hook returns an object containing two properties: currentUser, which holds the current user's data, and isLoading, a boolean value that indicates whether the data is still loading. This hook helps streamline data fetching in my application, making it more organized and reusable across different components.
+You can see how the application works by visiting: https://mern-food-ordering-app-frontend-c7fh.onrender.com.
