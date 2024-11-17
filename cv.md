@@ -2,7 +2,7 @@
 ### Junior Web Developer
 
 #### **Contacts:** 
--  Phone: +48 733 508 511
+- Phone: +48 733 508 511
 - E-mail: nb1985@ukr.net
 - Discord: @Nadiia
 #### **About me:**
