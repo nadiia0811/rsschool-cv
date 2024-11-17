@@ -1,10 +1,220 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
 
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+
+body {
+    background: #e5e5e5;
+    font-family: "Poppins", sans-serif; 
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.aboutme-info {
+    height: 1248px;   
+}
+
+.about p {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.aboutme {
+    height: 1160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    color: #003366;
+    align-items: center; 
+}
+
+.code h2 {
+    margin-bottom: 20px;
+} 
+.course {
+    margin-right: 5px;
+}
+
+.aboutme h2 {
+    font-weight: 400;
+}
+
+h2.position {
+    font-weight: 600;
+}
+
+.container {
+    background: white;
+    margin: 25px auto;
+    width: 950px;
+    height: 1250px;
+    border-radius: 5px;
+    display: flex;
+    border-top: 2px solid #003366;
+    border-bottom: 2px solid #003366;
+    border-right: 2px solid #003366;
+    color: #fff;    
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    background: #003366;
+    width: 300px;
+    gap: 40px;
+    align-items: center;
+    height: 1248px;     
+}
+
+.contact {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    gap: 40px;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.custom__ul {
+    margin-left: 10px; 
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    gap: 15px;
+}
+
+.custom__div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 608px;
+}
+
+.year {
+    width: 100px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 0;
+}
+
+footer {
+    width: 660px; 
+    height: 88px;
+    background: #003366;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -2px;
+}
+
+.footer__span {
+    font-size: 12px;
+}
+
+header {
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 700;
+    color: #fff;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.line {
+    width: 250px;
+    height: 2px;
+    background: #fff;
+}
+
+.picture {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+pre {
+    width: 600px;
+    height: 440px;
+    background: #e7e4e4;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+code {
+    width: 600px;
+    display: block; 
+    margin-left: -120px;  
+}   
+  
+.subcontainer {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about p {
+    line-height: 20px;
+}
+
+.about h2, p {
+    margin-left: 25px;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
 
 
 
