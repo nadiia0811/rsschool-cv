@@ -34,6 +34,10 @@ body {
     align-items: center; 
 }
 
+.code h2 {
+    margin-bottom: 20px;
+}
+
 .aboutme h2 {
     font-weight: 400;
 }
@@ -62,7 +66,7 @@ h2.position {
     width: 300px;
     gap: 40px;
     align-items: center;
-    height: 1228px;     
+    height: 1226px;     
 }
 
 .contact {
@@ -102,24 +106,25 @@ h2.position {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 footer {
-    width: 648px; 
-    height: 100px;
+    width: 660px; 
+    height: 98px;
     background: #003366;
     color:#fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -2px;
 }
 
 .footer__span {
     font-size: 12px;
 }
 
-.header {
+header {
     width: 250px;
     height: 200px;
     overflow: hidden;
@@ -158,10 +163,6 @@ h3 {
     background: #fff;
 }
 
-nav {
-    height: 1228px;
-}
-
 .picture {
     width: 70px;
     height: 50px;
@@ -172,14 +173,17 @@ nav {
 
 pre {
     width: 600px;
-   
+    height: 480px;
+    background: #e7e4e4;
+    color: #000;
+    font-weight: 500;
 }
 
 code {
     width: 600px;
-    display: block;
-    margin-left: -130px;
-}
+    display: block; 
+    margin-left: -120px;  
+}   
   
 .subcontainer {
     width: 500px;
