@@ -17,25 +17,32 @@ body {
 .about {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    
 }
 
 .aboutme-info {
-    height: 1228px;   
+    height: 1248px;   
+}
+
+.about p {
+    font-size: 16px;
+    margin-right: 20px;
 }
 
 .aboutme {
-    height: 1128px;
+    height: 1160px;
     display: flex;
     flex-direction: column;
     gap: 20px; 
-    padding: 20px;
     color: #003366;
     align-items: center; 
 }
 
 .code h2 {
     margin-bottom: 20px;
+} 
+.course {
+    margin-right: 5px;
 }
 
 .aboutme h2 {
@@ -50,7 +57,7 @@ h2.position {
     background: white;
     margin: 25px auto;
     width: 950px;
-    height: 1230px;
+    height: 1250px;
     border-radius: 5px;
     display: flex;
     border-top: 2px solid #003366;
@@ -66,7 +73,7 @@ h2.position {
     width: 300px;
     gap: 40px;
     align-items: center;
-    height: 1226px;     
+    height: 1248px;     
 }
 
 .contact {
@@ -85,6 +92,7 @@ h2.position {
 }
 
 .custom__ul {
+    margin-left: 10px; 
     display: flex;
     flex-direction: column;
     padding-left: 15px;
@@ -111,7 +119,7 @@ h2.position {
 
 footer {
     width: 660px; 
-    height: 98px;
+    height: 88px;
     background: #003366;
     color:#fff;
     display: flex;
@@ -154,7 +162,7 @@ h3 {
 .info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .line {
@@ -173,10 +181,11 @@ h3 {
 
 pre {
     width: 600px;
-    height: 480px;
+    height: 440px;
     background: #e7e4e4;
     color: #000;
     font-weight: 500;
+    font-size: 12px;
 }
 
 code {
@@ -195,6 +204,14 @@ code {
 
 .about p {
     line-height: 20px;
+}
+
+.about h2, p {
+    margin-left: 25px;
+}
+
+.about h2 {
+    margin-bottom: 15px;
 }
 
 
