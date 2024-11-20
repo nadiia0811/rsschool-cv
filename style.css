@@ -38,6 +38,7 @@ body {
     gap: 20px; 
     color: #003366;
     align-items: center; 
+    width: 660px;
 }
 
 .code h2 {
